@@ -1,0 +1,77 @@
+/* Colors */
+
+.black {
+  background-color: #000;
+}
+
+.med-gray {
+  background-color: #59524a;
+}
+
+.white {
+  color: #fff;
+}
+
+.temp-border {
+  border: 1px solid red;
+}
+
+/* Sections */
+
+html, body {
+  margin: 0px;
+  height: 100%; 
+  font-family: Rajdhani;
+}
+
+.container {
+  /*display: table;*/
+  width: 100%;
+  height: 100%;
+  border: 1px solid blue;
+}
+
+.sidebar {
+  /*margin: -10px;*/
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+.content {
+  display: block;
+  margin: 0 auto;
+  width: 49%;
+  height: 100%;
+  float: left;
+}
+
+.unordered-list, ul {
+  list-style-type: none;
+  display: block;
+  margin: auto;
+  text-align: center; 
+  padding-left: initial;
+}
+
+.list-item {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.1em;
+  padding: 0px 20px;
+  display: block;
+  margin: 10px auto;
+}
+
+.logo {
+  display: block;
+  margin: 10px auto;
+  height: 10%;
+}
+
+.preview {
+  display: block;
+  margin: auto;
+  padding-top: 20px;
+  width: 50%;
+}
