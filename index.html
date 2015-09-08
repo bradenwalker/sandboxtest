@@ -2,14 +2,43 @@
 <html>
 <head>
   <title></title>
-  <link href='https://fonts.googleapis.com/css?family=Rajdhani' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Rajdhani:700,400' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body class="container med-gray">
   <div class="black sidebar temp-border">
     <img class="logo" src="./img/logo.png"/>
     <ul class="unordered-list temp-border">
-      <li class="white list-item">Your Application</li>
+      <li class="white list-item">Your Application
+      <div class="app-forms med-gray">
+        
+        <div id="name-link" class="app-link"><span class="orange"><</span><span class="white">Name<span></span><span class="orange">></span></div>
+
+        <div id="name-form" class="name-form">
+          <h1 class="heading">Name Your App</h1>
+          <p class="sub-heading">(You can change it later.)</p>
+          <input type="text" class="form-input" placeholder="Enter App Name"/>
+          <input type="text" class="form-input" placeholder="Enter Sub Text"/>
+          <input type="text" class="form-input" placeholder="Enter logo image url (optional)"/>
+          <p class="caption-small half-opacity">Example: http://i.imgur.com/4d3gar3.png</p>
+        </div>
+        
+       <a class="app-link half-opacity" href="#"><span class="orange"><</span><span class="white">Styling<span></span><span class="orange">></span></a>
+
+<!--         <div class="styling-form">
+          <h1 class="heading">Name Your App</h1>
+          <p class="sub-heading">(You can change it later.)</p>
+          <input type="text" class="form-input" placeholder="Enter App Name"/>
+          <input type="text" class="form-input" placeholder="Enter Sub Text"/>
+          <input type="text" class="form-input" placeholder="Enter logo image url (optional)"/>
+          <p class="caption-small half-opacity">Example: http://i.imgur.com/4d3gar3.png</p>
+        </div> -->
+
+         <a class="app-link half-opacity" href="#"><span class="orange"><</span><span class="white">Store Info<span></span><span class="orange">></span></a>
+
+         <a class="app-link half-opacity" href="#"><span class="orange"><</span><span class="white">Create<span></span><span class="orange">></span></a>
+      </div>
+      </li>
       <li class="white list-item">Account Info</li>
       <li class="white list-item">Payment Info</li>
       <li class="white list-item">Log Out</li>
@@ -18,5 +47,7 @@
   <div class="med-gray content temp-border">
     <img class="preview" src="./img/preview.png"/>
   </div>
+<!--   <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script> -->
+  <script type="text/javascript" src="./js/app.js"></script>
 </body>
 </html>
